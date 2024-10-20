@@ -23,7 +23,7 @@ using namespace winrt::Windows::Security::Credentials;
 
 It's natural, that you install the Windows SDK to have the required headers. But compiling fails, due to a missing `vcruntime.h`. What the heck? A header that comes only with a Visual Studio installation?
 
-That was not, what I wanted. I want to compile the **Cryptomator** source code on the command line and is must be possible to compile the code on CI too.
+That was not, what I wanted. I want to compile the **Cryptomator** source code on the command line and it must be possible to compile the code on CI too.
 
 This took me a while, as all the notes and hints I found on the web lead to: you need to install Visual Studio. Besides, I never used Visual Studio and I am not willing to learn another IDE.
 
